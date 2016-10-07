@@ -1,5 +1,5 @@
 import json
-	#The json library can parse JSON from strings or files.
+    #The json library can parse JSON from strings or files.
     #The library parses JSON into a Python dictionary or list.It can also convert Python dictionaries or lists into JSON strings.
 import urllib2
     #urllib2 — extensible library for opening URLs
