@@ -5,13 +5,13 @@
 ######Function :  File Name : find-gender.py<br>
 
 import json <br>
- <small>The json library can parse JSON from strings or files. The library parses JSON into a 	Python dictionary or list.It can also convert Python dictionaries or lists into JSON strings. <small><br>
+ ######<small>The json library can parse JSON from strings or files. The library parses JSON into a 	Python dictionary or list.It can also convert Python dictionaries or lists into JSON strings. <small><br>
 import urllib2<br>
- <small>urllib2 — extensible library for opening URLs <small><br>
+ ######<small>urllib2 — extensible library for opening URLs <small><br>
 Key = "find-your-gender"<br>
- <small>your server key here <small><br>
+ ######<small>your server key here <small><br>
 name = raw_input("Enter name : ");<br>
- <small>It receives Input from user <small><br>
+ ######<small>It receives Input from user <small><br>
 if name:<br>
     data = json.load(urllib2.urlopen("https://gender-api.com/get?key=" + Key + "&name="+name))<br>
     print "Gender: " + data["gender"];<br>
