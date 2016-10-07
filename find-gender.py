@@ -9,4 +9,4 @@ if name:
 else:
     print "Error!!"
 
-#i.e Gender: male
+#Output- Gender: male
