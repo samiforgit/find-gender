@@ -1,5 +1,4 @@
 # find-gender
-<hr>
 ####Aim : This function will find the Gender of a given name.<br>
 
 #####Function :  File Name : find-gender.py<br>
