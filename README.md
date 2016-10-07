@@ -1,8 +1,7 @@
 # find-gender
 ####Aim : This function will find the Gender of a given name.<br>
-
-#####Function :  File Name : find-gender.py<br>
 <hr>
+#####Function :(File Name : find-gender.py)<br>
 import json <br>
  <font size="8px;"> #The json library can parse JSON from strings or files. The library parses JSON into a 	Python dictionary or list.It can also convert Python dictionaries or lists into JSON strings.</font><br>
 import urllib2<br>
